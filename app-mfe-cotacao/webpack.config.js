@@ -27,7 +27,7 @@ module.exports = {
       name: "mfe1",
       filename: "remoteEntry.js",
       exposes: {
-        "./Module": "./src/app/modules/cotacao/cotacao.module.ts",
+        "./Module": "./src/app/modules/simulacao-cotacao/simulacao-cotacao.module.ts",
       },
 
       // For hosts (please adjust)

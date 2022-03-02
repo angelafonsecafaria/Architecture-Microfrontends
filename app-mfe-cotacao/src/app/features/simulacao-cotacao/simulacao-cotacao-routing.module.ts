@@ -1,11 +1,11 @@
-import { StepOneCorretorComponent } from './step-one-corretor/step-one-corretor.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { StepComponent } from './views/step/step.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: StepOneCorretorComponent,
+    component: StepComponent,
   },
 ];
 
@@ -13,4 +13,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class CotacaoRoutingModule {}
+export class SimulacaoCotacaoRoutingModule {}

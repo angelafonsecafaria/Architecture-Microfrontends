@@ -5,8 +5,8 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./modules/cotacao/cotacao.module').then(
-        (m) => m.CotacaoModule
+      import('./features/simulacao-cotacao/simulacao-cotacao.module').then(
+        (m) => m.SimulacaoCotacaoModule
       ),
     pathMatch: 'full',
   },
